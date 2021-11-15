@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "6190b5dc0a39563d74697c34"
+  },
+  "email": "vtry.hiepl@gmail.com",
+  "password": "$2a$10$OygKxQWPOUWTCskFR1ejjuKk9Ivn2o041dZ7t0rbLq43diiAA/52G",
+  "fullname": "hiep",
+  "avatar": [
+    {
+      "public_id": "sample",
+      "url": "profilepiurls",
+      "_id": {
+        "$oid": "61920fc67beca3ce6c1efa67"
+      }
+    }
+  ],
+  "role": "admin",
+  "createdAt": {
+    "$date": "2021-11-14T07:08:12.580Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-15T07:44:06.881Z"
+  },
+  "__v": 0,
+  "address": "106/2"
+},{
+  "_id": {
+    "$oid": "6191f03045adf84d0f15abbb"
+  },
+  "email": "hiep011094@gmail.com",
+  "password": "$2a$10$mZfVhYqrtkZqpQSBD4HEwOyYyfzBWSLlf/wAn3W5pdDL8z7YIvbNW",
+  "fullname": "hiep",
+  "avatar": [
+    {
+      "public_id": "sample",
+      "url": "profilepiurls",
+      "_id": {
+        "$oid": "61920c153bab2efdaf770c0e"
+      }
+    }
+  ],
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-15T05:29:20.562Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-15T07:28:21.669Z"
+  },
+  "__v": 0,
+  "address": "106/2"
+}]

@@ -1,0 +1,680 @@
+[{
+  "_id": {
+    "$oid": "6190a02a59108b558094b56a"
+  },
+  "name": "Áo Sơ Mi Dinosaur 02",
+  "search": "Ao So Mi Dinosaur 02",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 1300,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "6190a02a59108b558094b56b"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "6190a02a59108b558094b56c"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "6190a02a59108b558094b56d"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "6190a02a59108b558094b56e"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "6190a02a59108b558094b56f"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "6190a02a59108b558094b570"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "6190a02a59108b558094b571"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "6190a02a59108b558094b572"
+      }
+    }
+  ],
+  "category": "Áo Sơ Mi",
+  "Stock": 1,
+  "numOfReviews": 2,
+  "reviews": [
+    {
+      "user": {
+        "$oid": "6190b5dc0a39563d74697c34"
+      },
+      "name": "hiep",
+      "rating": 4,
+      "comment": "fslkfsldkfjsdflskdflksds",
+      "_id": {
+        "$oid": "61925444a3814894cd9ea31b"
+      }
+    },
+    {
+      "user": {
+        "$oid": "6191f03045adf84d0f15abbb"
+      },
+      "name": "hiep",
+      "comment": "bbbbbb",
+      "_id": {
+        "$oid": "619265131a5ba37d47bc7fa7"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2021-11-14T05:35:38.049Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-15T13:48:42.281Z"
+  },
+  "__v": 3,
+  "ratings": 3.5
+},{
+  "_id": {
+    "$oid": "6190a05159108b558094b574"
+  },
+  "name": "Áo Sơ Mi Dinosaur 01",
+  "search": "Ao So Mi Dinosaur 01",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 3300,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "6190a05159108b558094b575"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "6190a05159108b558094b576"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "6190a05159108b558094b577"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "6190a05159108b558094b578"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "6190a05159108b558094b579"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "6190a05159108b558094b57a"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "6190a05159108b558094b57b"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "6190a05159108b558094b57c"
+      }
+    }
+  ],
+  "category": "Áo Sơ Mi",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-11-14T05:36:17.807Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-14T05:36:17.807Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6190a22dc1a7c91722df6250"
+  },
+  "name": "Quần Thun Dinosaur 03",
+  "search": "Quan Thun Dinosaur 03",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 5300,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6251"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6252"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6253"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6254"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6255"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6256"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6257"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "6190a22dc1a7c91722df6258"
+      }
+    }
+  ],
+  "category": "Quần Thun Mi",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-11-14T05:44:13.380Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-14T05:44:13.380Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6190a24bc1a7c91722df625a"
+  },
+  "name": "Áo Thun Dinosaur 03",
+  "search": "Ao Thun Dinosaur 03",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 5300,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df625b"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df625c"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df625d"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df625e"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df625f"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df6260"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df6261"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "6190a24bc1a7c91722df6262"
+      }
+    }
+  ],
+  "category": "Áo Thun",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-11-14T05:44:43.158Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-14T05:44:43.158Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6190acce69d1f7a0153b7676"
+  },
+  "name": "Áo xi nè",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 5300,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b7677"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b7678"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b7679"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b767a"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b767b"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b767c"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b767d"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "6190acce69d1f7a0153b767e"
+      }
+    }
+  ],
+  "category": "Áo xi",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-11-14T06:29:34.471Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-14T06:29:34.471Z"
+  },
+  "search": "Ao xi ne",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6190ae24c71d4aea3beaa96b"
+  },
+  "name": "Áo xi nè 01",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 2110,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa96c"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa96d"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa96e"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa96f"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa970"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa971"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa972"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "6190ae24c71d4aea3beaa973"
+      }
+    }
+  ],
+  "category": "Áo xi",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-11-14T06:35:16.823Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-14T06:35:16.823Z"
+  },
+  "search": "Ao xi ne 01",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6190ae359ed55464c36aad9c"
+  },
+  "name": "Áo xi nè 02",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 2110,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aad9d"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aad9e"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aad9f"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aada0"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aada1"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aada2"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aada3"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "6190ae359ed55464c36aada4"
+      }
+    }
+  ],
+  "category": "Áo xi",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-11-14T06:35:33.486Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-14T06:35:33.486Z"
+  },
+  "search": "Ao xi ne 02",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61913b3efba5a51f40235960"
+  },
+  "name": "Áo xi nè 03",
+  "description": "Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động",
+  "price": 12110,
+  "rating": 0,
+  "images": [
+    {
+      "public_id": "01",
+      "url": "My url you",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235961"
+      }
+    }
+  ],
+  "colors": [
+    {
+      "public_id": "1",
+      "color": "white",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235962"
+      }
+    },
+    {
+      "public_id": "2",
+      "color": "red",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235963"
+      }
+    },
+    {
+      "public_id": "3",
+      "color": "orange",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235964"
+      }
+    }
+  ],
+  "sizes": [
+    {
+      "public_id": "1",
+      "size": "s",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235965"
+      }
+    },
+    {
+      "public_id": "2",
+      "size": "m",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235966"
+      }
+    },
+    {
+      "public_id": "3",
+      "size": "l",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235967"
+      }
+    },
+    {
+      "public_id": "4",
+      "size": "xl",
+      "_id": {
+        "$oid": "61913b3efba5a51f40235968"
+      }
+    }
+  ],
+  "category": "Áo xi",
+  "Stock": 1,
+  "numOfReviews": 0,
+  "reviews": [],
+  "createdAt": {
+    "$date": "2021-11-14T16:37:18.885Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-14T16:37:18.885Z"
+  },
+  "search": "Ao xi ne 03",
+  "__v": 0
+}]

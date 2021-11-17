@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "6194be716b76b68ebf7ca444"
+  },
+  "name": "Trang Chủ",
+  "path": "/",
+  "submenu": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6194be716b76b68ebf7ca445"
+  },
+  "name": "Sản Phậm",
+  "path": "/san-pham",
+  "submenu": [
+    {
+      "name_sub": "khai xl",
+      "path_sub": "/khai",
+      "_id": {
+        "$oid": "6194c3bb8091e5097c37d0a2"
+      }
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6194be716b76b68ebf7ca446"
+  },
+  "name": "Blog",
+  "path": "/blog",
+  "submenu": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6194be716b76b68ebf7ca447"
+  },
+  "name": "Tin Tức",
+  "path": "/tin-tuc",
+  "submenu": [],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6194be716b76b68ebf7ca448"
+  },
+  "name": "Contact",
+  "path": "/contact",
+  "submenu": [],
+  "__v": 0
+}]

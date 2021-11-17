@@ -48,4 +48,28 @@
   },
   "__v": 0,
   "address": "106/2"
+},{
+  "_id": {
+    "$oid": "61946ac42027fff25407fede"
+  },
+  "email": "kaka0000900@gmail.com",
+  "password": "$2a$10$mpJR41UoZf5zrgVHU59uhen4fuylsVIlElblnkuupFr83b9jCANy.",
+  "fullname": "Le hiep",
+  "avatar": [
+    {
+      "public_id": "this id sample",
+      "url": "profilepiurl",
+      "_id": {
+        "$oid": "61946ac42027fff25407fedf"
+      }
+    }
+  ],
+  "role": "user",
+  "createdAt": {
+    "$date": "2021-11-17T02:36:52.171Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-17T02:36:52.171Z"
+  },
+  "__v": 0
 }]

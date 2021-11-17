@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "bea68af2-c6ba-469b-af73-ffc6f6cf8a8f",
+		"_postman_id": "a81800ae-bb90-40b7-945c-77353eec268b",
 		"name": "show-xine",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -69,7 +69,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"Áo xi nè 06\",\r\n    \"price\":1110,\r\n    \"description\":\"Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động <br><br><br> Sự hiện diện của những chiếc áo thun basic cổ tròn trong tủ đồ của bạn chính là chìa khóa giúp cho bạn có thêm nhiều outfit thú vị mà lại không cần đến quá nhiều món đồ. Áo thun nữ cotton cổ tròn basic chính là vũ khí tiện dụng cho các chị em trong trang phục hàng ngày!<br><br><br>Thiết kế đơn giản, form dáng tiện lợi của áo thun PPN4502. Tại sao chỉ với 1 chiếc áo thun nữ basic mà bạn có thể phối với 10 bộ độ khác nhau? Câu trả lời nằm ở chính sự đơn giản của chúng. Càng đơn giản, bạn lại càng dễ mix & match với những món đồ khác nhau.Áo thun nữ PPM4502 có thiết kế cổ tròn đơn giản, nhẹ nhàng tôn da. Tay cáo, form áo cũng không hề cầu kỳ, rất dễ mặc với nhiều thân hình khác nhau. Đặc biệt hơn, màu sắc của chiếc áo phông nữ cổ tròn này cũng rất nhã nhặn, trung tính, trơn màu. Sự tối giản từ thiết kế, đường may đến bảng màu giúp các chị em không cần đắn đo quá nhiều khi lựa chọn. Chất liệu cotton 95% được xử lý nghiêm ngặt, quy trình và công nghệ hiện đại nên mang tới cho chiếc áo sự thoải mái, mềm mại, thoáng mát ngay khi chạm vào. Cùng với đó, áo thun nữ cotton cổ tròn Yody có khả năng thâm shuts mồ hôi rất tốt nên người mặc không bị cảm giác bí bách, dính dính trên da khi đổ mồ hôi vào mùa hè. Bên cạnh đó, sản phẩm cũng chưa 5% spandex - loại sợi giúp co giãn, đàn hồi hiệu quả thích hợp mặc tới nhiều môi trường, ngay cả khi vận động\",\r\n    \"category\": \"Áo xi\",\r\n    \"images\":{\r\n        \"public_id\":\"01\",\r\n        \"url\":\"My url you\"\r\n    },\r\n    \"colors\":[\r\n        {\r\n            \"public_id\":\"1\",\r\n            \"color\":\"white\"\r\n        },\r\n        {\r\n            \"public_id\":\"2\",\r\n            \"color\":\"red\"\r\n        },\r\n        {\r\n            \"public_id\":\"3\",\r\n            \"color\":\"orange\"\r\n        }\r\n    ],\r\n    \"sizes\":[\r\n        {\r\n            \"public_id\":\"1\",\r\n            \"size\":\"s\"\r\n        },\r\n        {\r\n            \"public_id\":\"2\",\r\n            \"size\":\"m\"\r\n        },\r\n        {\r\n            \"public_id\":\"3\",\r\n            \"size\":\"l\"\r\n        },\r\n        {\r\n            \"public_id\":\"4\",\r\n            \"size\":\"xl\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"name\":\"Áo xi nè 05\",\r\n    \"price\":510,\r\n    \"description\":\"description description\",\r\n    \"category\": \"Áo xi\",\r\n    \"images\":{\r\n        \"public_id\":\"01\",\r\n        \"url\":\"My url you\"\r\n    },\r\n    \"colors\":[\r\n        {\r\n            \"public_id\":\"1\",\r\n            \"color\":\"white\"\r\n        }\r\n    ],\r\n    \"sizes\":[\r\n        {\r\n            \"public_id\":\"1\",\r\n            \"size\":\"s\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -77,7 +77,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:4000/api/v1/admin/product/new",
+							"raw": "http://localhost:4000/api/v1/",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -86,9 +86,7 @@
 							"path": [
 								"api",
 								"v1",
-								"admin",
-								"product",
-								"new"
+								""
 							]
 						}
 					},
@@ -170,6 +168,134 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Create comment review",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\":\"61946305df4cb66f9faf1584\",\r\n    \"comment\":\"5555555555555555555555555555555555555\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/comment/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"comment",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Comment review",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"comment\":\"ccccc\",\r\n    \"productId\":\"61946305df4cb66f9faf1584\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/comment/update/6194a5f77e05bb89388bb4a0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"comment",
+								"update",
+								"6194a5f77e05bb89388bb4a0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete comment review",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{    \r\n    \"productId\":\"61946305df4cb66f9faf1584\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/comment/delete/6194766715e3f0d565412929",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"comment",
+								"delete",
+								"6194766715e3f0d565412929"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Comment  review",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\":\"61946305df4cb66f9faf1584\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/comments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"comments"
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		},
@@ -183,7 +309,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"fullname\":\"Le hiep\",\r\n    \"email\":\"vtry.hiepl@gmail.com\",\r\n    \"password\":\"password\"\r\n}",
+							"raw": "{\r\n    \"fullname\":\"Le hiep\",\r\n    \"email\":\"kaka0000900@gmail.com\",\r\n    \"password\":\"password\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -213,7 +339,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\":\"hiep011094@gmail.com\",\r\n    \"password\":\"admin123\"\r\n}",
+							"raw": "{\r\n    \"email\":\"vtry.hiepl@gmail.com\",\r\n    \"password\":\"password\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -331,7 +457,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:4000/api/v1/reviews?id=61925444a3814894cd9ea31b&productId=6190a02a59108b558094b56a",
+							"raw": "http://localhost:4000/api/v1/reviews?id=6194749a15e3f0d5654128a9&productId=61946305df4cb66f9faf1584",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -345,11 +471,11 @@
 							"query": [
 								{
 									"key": "id",
-									"value": "61925444a3814894cd9ea31b"
+									"value": "6194749a15e3f0d5654128a9"
 								},
 								{
 									"key": "productId",
-									"value": "6190a02a59108b558094b56a"
+									"value": "61946305df4cb66f9faf1584"
 								}
 							]
 						}
@@ -550,7 +676,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"productId\":\"6190a02a59108b558094b56a\",\r\n    \"comment\":\"bbbbbb\"\r\n}",
+							"raw": "{\r\n    \"productId\":\"61946305df4cb66f9faf1584\" ,\r\n    \"rating\":\"5\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -568,6 +694,502 @@
 								"api",
 								"v1",
 								"review"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order",
+			"item": [
+				{
+					"name": "Create Oder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"shippingInfo\":{\r\n            \"address\":\"duong 79\",\r\n            \"city\":\"Phan thiet\",\r\n            \"state\":\"Binh thuan\",\r\n            \"country\":\"VietNam\",\r\n            \"pinCode\":600000,\r\n            \"phoneNo\":902841193\r\n        },\r\n        \"orderItems\":[\r\n            {\r\n                \"product\":\"6190a05159108b558094b574\",\r\n                \"name\":\"Áo Sơ Mi Dinosaur 01\",\r\n                \"price\":3300,\r\n                \"imgage\":\"My url you\",\r\n                \"quantity\":2\r\n            }\r\n        ],\r\n        \"paymentInfo\":{\r\n            \"id\":\"demo id\",\r\n            \"status\":\"successed\"\r\n        },\r\n        \"itemsPrice\":6600,\r\n        \"taxPrice\":36,\r\n        \"shippingPrice\":100,\r\n        \"totalPrice\":6736\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/order/new",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"order",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Single My order",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/orders/me",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"orders",
+								"me"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Oder by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/order/61931969447e333f3adc679a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"order",
+								"61931969447e333f3adc679a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all order --admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Status order -- admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderStatus\":\"delivered\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/order/61931969447e333f3adc679a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"order",
+								"61931969447e333f3adc679a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete order --- admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/order/61931969447e333f3adc679a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"order",
+								"61931969447e333f3adc679a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Menu",
+			"item": [
+				{
+					"name": "Create Menu -- admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\":\"Trang Chủ\",\r\n        \"path\":\"/\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/menu/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"menu",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Menu",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/menus",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"menus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update menu -- admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/menu/6194be716b76b68ebf7ca445",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"menu",
+								"6194be716b76b68ebf7ca445"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete menu -- admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/menu/6194cfde1208e58979743336",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"menu",
+								"6194cfde1208e58979743336"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Hot Line",
+			"item": [
+				{
+					"name": "Create Holine -- admin ",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Phone 03\",\r\n    \"phone\":902841193\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/hotline/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"hotline",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all hotline",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/hotlines",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"hotlines"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Hotline -- admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/hotline/6194d0c01931b6c612bd69d0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"hotline",
+								"6194d0c01931b6c612bd69d0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update hotline -- admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"hiep\",\r\n    \"phone\": 6546546546\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/hotline/6194d0c91931b6c612bd69d5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"hotline",
+								"6194d0c91931b6c612bd69d5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Social",
+			"item": [
+				{
+					"name": "Get All Social",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/socials",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"socials"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Social -- admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"xxxxx\",\r\n    \"path\": \"https://www.xxxxx.com/\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/social/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"social",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Social -- admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"kkkk\",\r\n    \"path\": \"https://www.kkkkkk.com/\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/social/6194d8f8aa6ee75b27c1d701",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"social",
+								"6194d8f8aa6ee75b27c1d701"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Social -- admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/social/6194d8f0aa6ee75b27c1d6fc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"social",
+								"6194d8f0aa6ee75b27c1d6fc"
 							]
 						}
 					},

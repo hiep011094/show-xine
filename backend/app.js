@@ -13,10 +13,22 @@ app.use(bodyParser.urlencoded({ extended: true, limit: "30mb" }));
 // Router imports
 import productRouter from "./routers/productRouter.js";
 import userRouter from "./routers/userRouter.js";
+import orderRouter from "./routers/orderRouter.js";
+import menuRouter from './routers/menuRouter.js';
+import hotlineRouter from './routers/hotlineRouter.js';
+import socialRouter from './routers/socialRouter.js'
 
 app.use("/api/v1", productRouter);
 
 app.use("/api/v1", userRouter);
+
+app.use("/api/v1", orderRouter);
+
+app.use("/api/v1", menuRouter);
+
+app.use("/api/v1", hotlineRouter);
+
+app.use("/api/v1", socialRouter)
 
 // Middleware for Errors
 app.use(errorMiddleware);

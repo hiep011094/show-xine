@@ -82,15 +82,16 @@ export const deleteProduct = catchAsyncError(async(req, res, next) => {
     });
 });
 
-// Create New Review or Update the rating review
+// Create New Review or Update the review
 
-export const createAndUpdateRatingReview = catchAsyncError(async(req, res, next) => {
-    const { rating, productId } = req.body;
+export const createProductReview = catchAsyncError(async(req, res, next) => {
+    const { rating, comment, productId } = req.body;
 
     const review = {
         user: req.user._id,
         name: req.user.fullname,
-        rating: Number(rating)
+        rating: Number(rating),
+        comment,
     };
 
     const product = await productModel.findById(productId);
@@ -102,7 +103,7 @@ export const createAndUpdateRatingReview = catchAsyncError(async(req, res, next)
     if (isReviewed) {
         product.reviews.forEach((rev) => {
             if (rev.user.toString() === req.user._id.toString()) {
-                (rev.rating = rating);
+                (rev.rating = rating), (rev.comment = comment);
             }
         });
     } else {
@@ -111,16 +112,12 @@ export const createAndUpdateRatingReview = catchAsyncError(async(req, res, next)
     }
 
     let avg = 0;
-    let l = 0;
 
     product.reviews.forEach((rev) => {
-        if (rev.rating) {
-            avg += rev.rating;
-            l++;
-        };
+        avg += rev.rating;
     });
 
-    product.ratings = avg / l;
+    product.ratings = avg / product.reviews.length;
 
     await product.save({ validateBeforeSave: false });
 
@@ -152,16 +149,6 @@ export const deleteProductReviews = catchAsyncError(async(req, res, next) => {
         return next(new ErrorHander("Product not found.", 404));
     }
 
-    const checkUser = product.reviews.filter(
-        (rev) => {
-            return rev._id.toString() === req.query.id.toString()
-        }
-    );
-
-    if (checkUser[0].user.toString() !== req.user._id.toString()) {
-        return next(new ErrorHander("Review is not by User.", 404));
-    }
-
     const reviews = product.reviews.filter(
         (rev) => rev._id.toString() !== req.query.id.toString()
     );
@@ -169,15 +156,10 @@ export const deleteProductReviews = catchAsyncError(async(req, res, next) => {
     let avg = 0;
 
     reviews.forEach((rev) => {
-        if (rev.rating) avg += rev.rating;
+        avg += rev.rating;
     });
 
-    let l = 1
-    if (reviews.length) {
-        l = reviews.length;
-    }
-
-    const ratings = avg / l;
+    const ratings = avg / reviews.length;
 
     const numOfReviews = reviews.length;
 
@@ -200,147 +182,25 @@ export const deleteProductReviews = catchAsyncError(async(req, res, next) => {
 
 // Create comment the review
 export const createCommentReview = catchAsyncError(async(req, res, next) => {
-    const { comment, productId } = req.body;
+    const { idReview, comment, productId } = req.body;
 
     const product = await productModel.findById(productId);
 
     const isReviewed = product.reviews.find(
         (rev) => rev.user.toString() === req.user._id.toString()
     );
+
     if (isReviewed) {
-        product.reviews.forEach(item => {
-            if (item.user.toString() === req.user._id.toString()) {
-                item.comments.push({ comment: comment });
+        product.reviews.forEach(rev => {
+            if (idReview === rev._id.toString()) {
+                (rev.comments.public_id = 'test'), (rev.comments.comment = comment)
             }
         })
-    } else {
-        product.reviews.push({
-            comments: [{ comment: comment }],
-        });
     }
 
     await product.save({ validateBeforeSave: false });
 
     res.status(200).json({
         success: true,
-        product
-    });
-})
-
-// Update comment the review
-export const updateCommentReview = catchAsyncError(async(req, res, next) => {
-    const { comment, productId } = req.body;
-
-    const product = await productModel.findById(productId);
-
-    const isReviewed = product.reviews.find(
-        (rev) => rev.user.toString() === req.user._id.toString()
-    );
-
-    const check = isReviewed.comments.find((com) => com._id.toString() === req.params.id.toString())
-
-    if (!check) {
-        return next(new ErrorHander("Comment is not by User.", 404));
-    }
-
-    if (isReviewed) {
-        product.reviews.forEach(item => {
-            item.comments.forEach(i => {
-                if (i._id.toString() === req.params.id.toString()) {
-                    (i.comment = comment)
-                }
-            })
-        })
-    }
-
-    await product.save({ validateBeforeSave: false });
-
-    res.status(200).json({
-        success: true,
-        product
-    });
-})
-
-
-// remove comment the review
-export const deleteCommentReview = catchAsyncError(async(req, res, next) => {
-
-    const product = await productModel.findById(req.body.productId);
-
-    if (!product) {
-        return next(new ErrorHander("Product not found.", 404));
-    }
-
-    const isReviewed = product.reviews.find(
-        (rev) => rev.user.toString() === req.user._id.toString()
-    );
-
-    const check = isReviewed.comments.find((com) => com._id.toString() === req.params.id.toString())
-
-    if (!check) {
-        return next(new ErrorHander("Comment is not by User.", 404));
-    }
-
-    let newReview = product.reviews.map(({ user, name, rating, _id, comments }) =>
-        ({
-            user,
-            name,
-            rating,
-            _id,
-            comments: comments.filter(({ _id: __id }) => {
-                return req.params.id !== __id.toString();
-            })
-        })
-    )
-
-    let avg = 0;
-
-    newReview.forEach((rev) => {
-        if (rev.rating) {
-            avg += rev.rating;
-        }
-    });
-
-    const ratings = avg / newReview.length;
-
-    const numOfReviews = newReview.length;
-
-    await productModel.findByIdAndUpdate(
-        req.body.productId, {
-            reviews: newReview,
-            ratings,
-            numOfReviews,
-        }, {
-            new: true,
-            runValidators: true,
-            useFindAndModify: false,
-        }
-    );
-
-    res.status(200).json({
-        success: true,
-    });
-})
-
-export const getAllCommentReview = catchAsyncError(async(req, res, next) => {
-    const product = await productModel.findById(req.body.productId);
-
-    if (!product) {
-        return next(new ErrorHander("Product not found.", 404));
-    }
-    let data = []
-
-    product.reviews.forEach(({ comments }) => {
-        if (comments.length !== 0) {
-            return data.push(...comments)
-        }
-    });
-
-    data.sort(function(x, y) {
-        return y.updatedAt - x.updatedAt;
-    });
-    res.status(200).json({
-        success: true,
-        comments: data
     });
 })

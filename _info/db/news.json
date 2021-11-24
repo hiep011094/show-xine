@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6195d9908476ade96edf0a7d"
+  },
+  "name": "news01",
+  "image": "img01",
+  "category": "cate01",
+  "description": "description01",
+  "content": "content 01",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6195d9d28476ade96edf0a8d"
+  },
+  "name": "news02",
+  "image": "img02",
+  "category": "cate02",
+  "description": "description02",
+  "content": "content 02",
+  "__v": 0
+}]

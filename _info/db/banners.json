@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6195d529cc92820b39e88594"
+  },
+  "name": "name01",
+  "image": "/img/img1.jpg",
+  "path": "path01",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6195d539cc92820b39e88598"
+  },
+  "name": "name02",
+  "image": "/img/img.jpg",
+  "path": "path02",
+  "__v": 0
+}]

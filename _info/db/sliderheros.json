@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "6195b3cbb5c2acab67937b77"
+  },
+  "name": "slider 01",
+  "image": "img01",
+  "description": "xxxxx",
+  "path": "https://www.xxxxx.com/",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6195b3e0b5c2acab67937b7f"
+  },
+  "name": "slider 02",
+  "image": "img02",
+  "description": "xxxxx",
+  "path": "https://www.xxxxx.com/",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6195b3f8b5c2acab67937b87"
+  },
+  "name": "slider 03",
+  "image": "img03",
+  "description": "sssssssssssssss",
+  "path": "https://www.kkkkkk.com/",
+  "__v": 0
+}]

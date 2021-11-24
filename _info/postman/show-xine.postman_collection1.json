@@ -1196,6 +1196,733 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Blog",
+			"item": [
+				{
+					"name": "Get All Blog",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/blogs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"blogs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Blog Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/blog/6195c419986575bcbe283b41",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"blog",
+								"6195c419986575bcbe283b41"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Blog  -- admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"blog03\",\r\n    \"image\":\"img03\",\r\n    \"description\":\"description03\",\r\n    \"category\":\"cate03\",\r\n    \"content\":\"content 03\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/blog/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"blog",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Blog -- admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\": \"blog04\",\r\n        \"image\": \"img04\",\r\n        \"category\": \"cate04\",\r\n        \"description\": \"description04\",\r\n        \"content\": \"kkkk\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/blog/6195c404986575bcbe283b3d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"blog",
+								"6195c404986575bcbe283b3d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Blog -- admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/blog/6195c404986575bcbe283b3d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"blog",
+								"6195c404986575bcbe283b3d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "News",
+			"item": [
+				{
+					"name": "Get All News",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/news",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"news"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get News Detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/news/6195d9a78476ade96edf0a82",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"news",
+								"6195d9a78476ade96edf0a82"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create News  -- admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"news02\",\r\n    \"image\":\"img02\",\r\n    \"description\":\"description02\",\r\n    \"category\":\"cate02\",\r\n    \"content\":\"content 02\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/news/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"news",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update News -- admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"name\": \"blog03\",\r\n        \"image\": \"img03\",\r\n        \"category\": \"cate03\",\r\n        \"description\": \"description03\",\r\n        \"content\": \"kkkk\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/news/6195d9a78476ade96edf0a82",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"news",
+								"6195d9a78476ade96edf0a82"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete News -- admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/news/6195d9a78476ade96edf0a82",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"news",
+								"6195d9a78476ade96edf0a82"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Slider Hero",
+			"item": [
+				{
+					"name": "Get All Slider Hero",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/slider-heros",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"slider-heros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Slider Hero -- admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"slider 04\",\r\n    \"image\": \"img04\",\r\n    \"description\": \"sssssssssssssss\",\r\n    \"path\": \"https://www.xxxxx.com/\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/slider-hero/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"slider-hero",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Slider Hero -- admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"img03\",\r\n    \"description\": \"sssssssssssssss\"\r\n  }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/slider-hero/6195b3f8b5c2acab67937b87",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"slider-hero",
+								"6195b3f8b5c2acab67937b87"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Slider Hero -- admin",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/v1/admin/slider-hero/6195b40bb5c2acab67937b8e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"v1",
+								"admin",
+								"slider-hero",
+								"6195b40bb5c2acab67937b8e"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Customer",
+			"item": [
+				{
+					"name": "menu Footer",
+					"item": [
+						{
+							"name": "Get All menu Footer",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4000/api/v1/menu-footers",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"menu-footers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create menu Footer -- admin",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"name04\",\r\n    \"path\": \"https://www.path04.com/\"\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/menu-footer/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"menu-footer",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update menu Footer -- admin",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"name03\",\r\n    \"path\": \"https://www.path03.com/\"\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/menu-footer/6195d5f9cc92820b39e885d2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"menu-footer",
+										"6195d5f9cc92820b39e885d2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete menu Footer -- admin",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/menu-footer/6195d5f9cc92820b39e885d2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"menu-footer",
+										"6195d5f9cc92820b39e885d2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Info",
+					"item": [
+						{
+							"name": "Get All Info",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4000/api/v1/infos",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"infos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Info -- admin",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"info02\",\r\n    \"images\":[\r\n        {\r\n            \"url\":\"/img/img.jpg\"\r\n        },{\r\n            \"url\":\"/img/img1.jpg\"\r\n        }\r\n    ],\r\n    \"content\":\"content02\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/info/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"info",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Info -- admin",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"info\",\r\n    \"images\":[\r\n        {\r\n            \"url\":\"/img/img.jpg\"\r\n        }\r\n    ],\r\n    \"content\":\"content\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/info/6195d3f7cc92820b39e88547",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"info",
+										"6195d3f7cc92820b39e88547"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Info -- admin",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/info/6195d3f7cc92820b39e88547",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"info",
+										"6195d3f7cc92820b39e88547"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Banner",
+					"item": [
+						{
+							"name": "Get All Banner",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4000/api/v1/banners",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"banners"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Banner -- admin",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"name03\",\r\n    \"image\":\"/img/img.jpg\",\r\n    \"path\":\"path03\"\r\n  }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/banner/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"banner",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Banner  -- admin",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n            \r\n            \"name\": \"name01\",\r\n            \"image\": \"/img/img1.jpg\",\r\n            \"path\": \"path01\",\r\n            \"__v\": 0\r\n        }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/banner/6195d529cc92820b39e88594",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"banner",
+										"6195d529cc92820b39e88594"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Banner  -- admin",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:4000/api/v1/admin/banner/6195d54bcc92820b39e885a2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "4000",
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"banner",
+										"6195d54bcc92820b39e885a2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
 		}
 	]
 }

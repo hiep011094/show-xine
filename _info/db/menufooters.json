@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "6195d5b1cc92820b39e885c0"
+  },
+  "name": "name01",
+  "path": "https://www.path01.com/",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6195d5decc92820b39e885c7"
+  },
+  "name": "name02",
+  "path": "https://www.path02.com/",
+  "__v": 0
+}]

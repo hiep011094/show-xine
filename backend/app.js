@@ -16,7 +16,12 @@ import userRouter from "./routers/userRouter.js";
 import orderRouter from "./routers/orderRouter.js";
 import menuRouter from './routers/menuRouter.js';
 import hotlineRouter from './routers/hotlineRouter.js';
-import socialRouter from './routers/socialRouter.js'
+import socialRouter from './routers/socialRouter.js';
+import sliderHeroRouter from './routers/sliderHeroRouter.js';
+import blogRouter from './routers/blogRouter.js';
+import newsRouter from './routers/newsRouter.js';
+import customerRouter from './routers/customerRouter.js';
+
 
 app.use("/api/v1", productRouter);
 
@@ -28,7 +33,15 @@ app.use("/api/v1", menuRouter);
 
 app.use("/api/v1", hotlineRouter);
 
-app.use("/api/v1", socialRouter)
+app.use("/api/v1", socialRouter);
+
+app.use("/api/v1", sliderHeroRouter);
+
+app.use("/api/v1", blogRouter);
+
+app.use("/api/v1", newsRouter);
+
+app.use("/api/v1", customerRouter);
 
 // Middleware for Errors
 app.use(errorMiddleware);

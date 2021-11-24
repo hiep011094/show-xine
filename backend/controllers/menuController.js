@@ -52,9 +52,9 @@ export const deleteMenu = catchAsyncError(async(req, res, next) => {
 
 // Get All menu
 export const getAllMenu = catchAsyncError(async(req, res, next) => {
-    const menu = await menuModel.find().select("-submenu");
+    const menus = await menuModel.find().select("-submenu");
     res.status(200).json({
         success: true,
-        menu
+        menus
     });
 })

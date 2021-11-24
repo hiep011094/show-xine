@@ -6,11 +6,11 @@ import { hotlineModel } from '../models/hotlineModel.js'
 
 export const createrHotline = catchAsyncError(async(req, res, next) => {
 
-    const hotline = await hotlineModel.create(req.body);
+    const hotlines = await hotlineModel.create(req.body);
 
     res.status(200).json({
         success: true,
-        hotline
+        hotlines
     })
 });
 

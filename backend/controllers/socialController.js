@@ -44,13 +44,13 @@ export const deleteSocial = catchAsyncError(async(req, res, next) => {
 })
 
 
-// Delete Social -- admin
+// Get All Social -- admin
 export const getAllSocial = catchAsyncError(async(req, res, next) => {
 
-    const social = await socialModel.find();
+    const socials = await socialModel.find();
 
     res.status(200).json({
         success: true,
-        social
+        socials
     })
 })

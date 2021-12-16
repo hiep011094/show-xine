@@ -1,0 +1,20 @@
+@import "./base";
+@import "./var";
+@import "./mixins";
+
+// Layout
+@import "./layout";
+
+// pages
+@import "./header";
+@import "./pages/top";
+@import "./footer";
+
+//component
+@import "./component/gnavi";
+@import "./component/slider";
+@import "./component/lists";
+@import "./component/title";
+@import "./component/btn";
+@import "./component/table";
+@import "./component/orther";

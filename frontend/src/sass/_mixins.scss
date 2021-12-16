@@ -1,0 +1,5 @@
+@mixin sp($data) {
+    @media only screen and (max-width: $data) {
+        @content;
+    }
+}

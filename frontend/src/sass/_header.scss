@@ -1,0 +1,52 @@
+// header
+.c-header {
+    background: $cl02-op05;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    padding: 10px 0;
+    color: $clw;
+    transition: 0.5s ease;
+    .l-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__left {
+        flex-shrink: 0;
+    }
+    .c-logo {
+        margin-bottom: -10px;
+    }
+    a {
+        color: $clw;
+    }
+}
+
+.c-header.active {
+    background: $cl02-op06;
+    padding: 4px 0 3px 0;
+    @include sp(768px) {
+        padding: 10px 0;
+    }
+    .c-logo {
+        font-size: 4.2rem;
+        @include sp(768px) {
+            font-size: 3rem;
+        }
+    }
+    .c-header__left span {
+        font-size: 1rem;
+        @include sp(768px) {
+            font-size: 0.8rem;
+        }
+    }
+    .c-gnavi__sub {
+        padding: 20px 0 0 0;
+        @include sp(768px) {
+            padding: 0;
+        }
+    }
+}

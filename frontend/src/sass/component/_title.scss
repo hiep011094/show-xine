@@ -1,0 +1,53 @@
+.c-ttl {
+    font-family: "Pacifico", cursive;
+    font-size: 6rem;
+    @include sp(1200px) {
+        font-size: 5rem;
+    }
+    @include sp(768px) {
+        font-size: 3.4rem;
+    }
+}
+.c-ttl01 {
+    font-size: 3.8rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Pacifico", cursive;
+    margin-bottom: 20px;
+    color: $cl02;
+    position: relative;
+    z-index: 1;
+    &::after {
+        content: "";
+        background: $cl02;
+        height: 2px;
+        width: 50px;
+        position: absolute;
+        z-index: -1;
+        margin-bottom: -20px;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @include sp(1200px) {
+        font-size: 3.2rem;
+    }
+    @include sp(768px) {
+        font-size: 2.8rem;
+    }
+}
+
+.c-caption {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    color: $clw;
+    @include sp(1200px) {
+        font-size: 1rem;
+    }
+    @include sp(768px) {
+        font-size: 0.8rem;
+    }
+}

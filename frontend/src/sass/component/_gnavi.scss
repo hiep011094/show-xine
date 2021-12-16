@@ -1,0 +1,211 @@
+.c-gnavi {
+    flex-shrink: 0;
+    @include sp(1024px) {
+        position: fixed;
+        right: 0;
+        top: 76px;
+        width: 80%;
+        max-width: 250px;
+        height: 100vh;
+        z-index: 10;
+        background: $cl02-op05;
+        display: block;
+        transform: translateX(100%);
+        transition: 0.5s;
+        &.active {
+            transform: translateX(0);
+        }
+    }
+    @include sp(768px) {
+        top: 62px;
+    }
+    > ul {
+        display: flex;
+        @include sp(1024px) {
+            display: block;
+        }
+        a {
+            display: block;
+            width: 100%;
+            @include sp(1200px) {
+                font-size: 1.4rem;
+            }
+            &:hover {
+                color: $cl02-op08;
+            }
+        }
+        > li {
+            display: block;
+            @include sp(1024px) {
+                border-top: 1px solid $clw;
+            }
+            a {
+                padding: 20px;
+                @include sp(1200px) {
+                    padding: 15px;
+                }
+                @include sp(1024px) {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+        > li.active {
+            > a {
+                color: $cl02;
+            }
+        }
+        .over {
+            position: relative;
+            z-index: 1;
+            @include sp(1024px) {
+                cursor: pointer;
+                &:hover {
+                    color: $cl02;
+                }
+                &.dot {
+                    svg {
+                        transform: rotate(-180deg);
+                    }
+                }
+                &::after {
+                    content: "";
+                    width: 52px;
+                    height: 100%;
+                    background: transparent;
+                    z-index: 2;
+                    right: 0;
+                    top: 0;
+                    position: absolute;
+                }
+            }
+            > a {
+                padding-right: 25px;
+                position: relative;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                @include sp(1200px) {
+                    padding-right: 20px;
+                }
+                @include sp(1024px) {
+                    width: calc(100% - 50px);
+                    svg {
+                        position: relative;
+                        right: -57px;
+                    }
+                }
+                svg {
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+    &__sub {
+        transition: 0.5s ease;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        height: 0;
+        transform: translate(-50%);
+        top: 81px;
+        width: 250px;
+        padding: 0;
+        @include sp(1200px) {
+            top: 34px;
+        }
+        @include sp(1024px) {
+            position: relative;
+            padding: 0;
+            top: 0;
+            width: 100%;
+            visibility: visible;
+        }
+        li {
+            text-align: center;
+            background: $cl02-op05;
+            a {
+                font-size: 1.4rem;
+                padding: 8px;
+                border-top: 1px solid $clw;
+                &:hover {
+                    background: $cl01-op03;
+                    color: $clw !important;
+                }
+            }
+        }
+    }
+    ul > li:last-child &__sub {
+        right: -40px;
+        left: auto;
+        transform: none;
+        @include sp(768px) {
+            right: 0;
+        }
+    }
+    &__sub.active {
+        height: 100%;
+        visibility: visible;
+    }
+}
+.c-menutoggle {
+    display: none;
+}
+@include sp(1024px) {
+    .c-menutoggle {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 35px;
+        height: 30px;
+        z-index: 100;
+        transition: 0.5s;
+        &:hover {
+            opacity: 0.8;
+        }
+        span {
+            display: block;
+            width: 100%;
+            height: 3px;
+            background: $clw;
+            position: relative;
+            margin-top: 3px;
+            transition: 0.5s;
+            &::after {
+                content: "";
+                width: 50%;
+                height: 3px;
+                background: $clw;
+                position: absolute;
+                right: 0;
+                top: 20px;
+                transition: 0.5s;
+            }
+            &::before {
+                content: "";
+                width: 75%;
+                height: 3px;
+                background: $clw;
+                position: absolute;
+                right: 0;
+                top: 10px;
+                transition: 0.5s;
+            }
+        }
+    }
+    .c-menutoggle.active {
+        span {
+            transform: rotate(45deg) translate(8px, 7px);
+            &::before {
+                display: none;
+            }
+            &::after {
+                width: 100%;
+                transform: rotate(-90deg) translate(20px, 0px);
+            }
+        }
+    }
+}

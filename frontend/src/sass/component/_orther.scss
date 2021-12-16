@@ -1,0 +1,549 @@
+.c-bg01 {
+    background: url(../../assets/images/common/b05_bg.jpg) repeat;
+}
+.c-logo {
+    line-height: 1;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 6rem;
+    letter-spacing: 0.05em;
+    margin-bottom: -10px;
+    @include sp(1200px) {
+        font-size: 4rem;
+    }
+    @include sp(768px) {
+        font-size: 3rem;
+        margin-right: 15px;
+    }
+    a {
+        color: $clw;
+    }
+}
+
+.c-boxtext {
+    padding: 50px 0 70px 0;
+    h3 {
+        margin-bottom: 20px;
+    }
+}
+
+.c-hotline {
+    background: $clw;
+    text-align: center;
+    margin-top: 30px;
+    margin: 0 auto;
+    .ttl {
+        font-size: 48px;
+        line-height: 1;
+        font-family: "Dancing Script", cursive;
+        text-transform: lowercase;
+        background: $cl01;
+        padding: 10px;
+        color: $clw;
+        position: relative;
+        letter-spacing: 00.1em;
+        &::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid $cl01;
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &::first-letter {
+            color: $cl04;
+            font-size: 54px;
+        }
+    }
+    .phone {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        &__item {
+            a {
+                color: $cl01;
+                font-size: 44px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                padding: 0 30px;
+                svg {
+                    margin-right: 12px;
+                    transform: scale(0.75);
+                }
+            }
+            > svg {
+                transform: scale(1.8) translateY(-5px);
+                color: $cl04;
+            }
+            &:first-child {
+                > svg {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.c-mainvisual {
+    color: $clw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    @include sp(768px) {
+        max-height: 500px;
+    }
+    &__inner {
+        text-align: center;
+        padding: 20px 20px 60px 20px;
+        .c-ttl {
+            margin-bottom: 25px;
+        }
+        p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    }
+}
+.c-videomv {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    @include sp(768px) {
+        max-height: 500px;
+        overflow: hidden;
+    }
+    video {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 100%;
+        min-width: 100%;
+        @include sp(768px) {
+            max-width: 280%;
+        }
+    }
+}
+
+.c-social {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background: linear-gradient(to right, $cl03-op06, $cl03-op02);
+    @include sp(768px) {
+        padding: 20px;
+    }
+    li {
+        margin: 0 15px;
+        @include sp(768px) {
+            margin: 0 10px;
+        }
+        a {
+            color: $clw;
+            padding: 5px 8px;
+            border-radius: 10px;
+            line-height: 1;
+            @include sp(768px) {
+                font-size: 1.8rem;
+            }
+        }
+        .facebook {
+            background: #3b5998;
+        }
+        .linkedin {
+            background: #0a66c2;
+        }
+        .youtube {
+            background: #ff0000;
+        }
+        .twitter {
+            background: rgb(29, 155, 240);
+        }
+        .behance {
+            background: #0057ff;
+        }
+    }
+}
+
+.c-policycart {
+    background: $clw;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: $box-shadow;
+    transition: 0.5s;
+    position: relative;
+    z-index: 2;
+    &:hover {
+        transform: translateY(-10px);
+    }
+    &__icon {
+        font-size: 3rem;
+        color: $cl03;
+    }
+    &__txt {
+        margin-left: 20px;
+        p {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        span {
+            display: block;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.c-product {
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    position: relative;
+    @include sp(1200px) {
+        margin: 25px auto;
+    }
+    @include sp(630px) {
+        max-width: 260px;
+    }
+    @include sp(374px) {
+        max-width: 220px;
+    }
+    * > {
+        display: block;
+        width: 100%;
+    }
+    &__img {
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            transition: 0.8s;
+            &:first-child {
+                transform: rotate(0) scale(1);
+                opacity: 1;
+            }
+            &:last-child {
+                opacity: 0;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: rotate(10deg) translate(-50%, -50%) scale(0);
+            }
+        }
+        &:hover {
+            img {
+                &:first-child {
+                    opacity: 0;
+                    transform: rotate(-10deg) scale(0);
+                }
+                &:last-child {
+                    opacity: 1;
+                    transform: rotate(0deg) translate(-50%, -50%) scale(1);
+                }
+            }
+        }
+    }
+    &__txt {
+        padding: 15px 10px;
+        background: $clw-op02;
+        transition: 0.5s;
+        &:hover {
+            opacity: 0.7;
+        }
+        .ttl {
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: "Pacifico", cursive;
+            color: $cl01;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .price {
+            font-weight: 700;
+            font-family: "Roboto", sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            transition: 0.5s;
+            span {
+                display: inline-block;
+                margin-right: 10px;
+                span {
+                    font-size: 1.2rem;
+                    letter-spacing: 0.05em;
+                }
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+            &_news {
+                color: $cl04;
+                font-size: 1.8rem;
+            }
+            &_old {
+                font-size: 1.4rem;
+                position: relative;
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 2px;
+                    background: $clbl;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+
+.c-blog {
+    cursor: pointer;
+    &__txt {
+        margin: 0 auto;
+        padding: 60px 30px 30px 30px;
+        width: 95%;
+        background: $clw-op08;
+        transform: translateY(-35px);
+        box-shadow: $box-shadow;
+        position: relative;
+        transition: 0.5s;
+        min-height: 242px;
+        @include sp(768px) {
+            padding: 60px 20px 30px 20px;
+            min-height: auto;
+        }
+        .cate {
+            background: $cl04;
+            color: $clw;
+            padding: 5px 15px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            text-shadow: 0 0 1px $clw;
+            letter-spacing: 0.1em;
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            @include sp(768px) {
+                padding: 4px 12px;
+                font-size: 1.1rem;
+            }
+        }
+        .ttl {
+            text-align: center;
+            font-size: 2.6rem;
+            font-family: "Pacifico", cursive;
+            color: $cl01;
+            line-height: 1.4;
+            @include sp(768px) {
+                font-size: 2rem;
+            }
+        }
+        .description {
+            text-align: justify;
+        }
+    }
+    &__img {
+        overflow: hidden;
+        img {
+            width: 100%;
+            transition: 0.5s;
+        }
+    }
+    &:hover {
+        .c-blog__txt {
+            transform: translateY(-45px);
+        }
+        img {
+            transform: scale(1.1);
+        }
+    }
+}
+.c-totop {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid $clw;
+    border-radius: 50px;
+    display: block;
+    color: $clw;
+    background: $cl03;
+    font-size: 3rem;
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 10;
+    transform: translateY(120px);
+    @include sp(768px) {
+        bottom: 20px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        font-size: 2.4rem;
+        transform: translateY(70px);
+    }
+    &.active {
+        transform: translateY(0);
+        &:hover {
+            transform: translateY(-10px);
+            opacity: 0.8;
+        }
+    }
+}
+
+.c-loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    span {
+        border-color: $cl01;
+    }
+}
+
+.c-login {
+    position: fixed;
+    width: calc(100% - 40px);
+    height: 100%;
+    max-width: 450px;
+    max-height: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: $clw;
+    border: 4px solid $cl02;
+    color: $cl02;
+    border-radius: 4px;
+    @include sp(500px) {
+        max-height: 540px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+        max-width: 450px;
+        max-height: 600px;
+        padding: 40px 20px;
+    }
+    .css-binzgt {
+        margin: 0;
+    }
+    svg {
+        font-size: 2rem;
+        color: $cl02;
+        @include sp(500px) {
+            font-size: 1.8rem;
+        }
+    }
+    .MuiAvatar-circular {
+        background: $cl02;
+        width: 60px;
+        height: 60px;
+        @include sp(500px) {
+            width: 50px;
+            height: 50px;
+        }
+        svg {
+            font-size: 3rem;
+            color: $clw;
+            @include sp(500px) {
+                font-size: 2.6rem;
+            }
+        }
+    }
+    .ttl {
+        font-size: 2.6rem;
+        font-family: "Dancing Script", cursive;
+        color: $cl02;
+        @include sp(500px) {
+            font-size: 2.2rem;
+        }
+    }
+    * {
+        font-size: 1.4rem;
+        @include sp(500px) {
+            font-size: 1.2rem;
+        }
+    }
+    label,
+    label span {
+        font-size: 2.2rem;
+        color: $cl02;
+        font-family: "Dancing Script", cursive;
+        @include sp(500px) {
+            font-size: 2rem;
+        }
+    }
+    .MuiTypography-root {
+        font-size: 1.4rem;
+        color: $cl02;
+        font-family: "Dancing Script", cursive;
+    }
+    .MuiFormHelperText-root {
+        font-size: 1.2rem;
+        @include sp(500px) {
+            font-size: 1rem;
+        }
+    }
+    .css-ijul54-MuiTypography-root {
+        margin-top: 30px;
+        @include sp(500px) {
+            margin-top: 25px;
+        }
+    }
+    label span {
+        font-family: "Dancing Script", cursive;
+    }
+    input {
+        font-size: 1.6rem;
+        @include sp(500px) {
+            font-size: 1.4rem;
+            padding-top: 15px;
+            padding-bottom: 12px;
+        }
+    }
+    button {
+        font-size: 1.6rem;
+        background: $cl02;
+        font-family: "Dancing Script", cursive;
+        text-transform: capitalize;
+        &:hover {
+            background: $cl02-op08;
+        }
+    }
+    &__close {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+        @include sp(500px) {
+            right: 10px;
+            top: 10px;
+        }
+        svg {
+            font-size: 2.2em;
+            color: $cl02;
+            @include sp(500px) {
+                font-size: 2em;
+            }
+        }
+    }
+}

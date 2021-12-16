@@ -1,0 +1,67 @@
+.p-top {
+    &__inner {
+        background: url("../../assets/images/common/b01_bg.jpg") repeat;
+        background-size: 300px 300px;
+        padding-bottom: 50px;
+    }
+    &__product {
+        padding-top: 80px;
+        @include sp(768px) {
+            padding-top: 55px;
+        }
+    }
+    &__blog {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        @include sp(768px) {
+            padding-top: 55px;
+        }
+        .c-ttl01 {
+            margin-bottom: 50px;
+            @include sp(768px) {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    &__introduct {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        @include sp(768px) {
+            padding-top: 55px;
+            padding-bottom: 55px;
+        }
+        .c-ttl01 {
+            margin-bottom: 50px;
+        }
+        .c-btn01 {
+            margin-top: 35px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &--img {
+            padding-top: 80px;
+            padding-bottom: 40px;
+            @include sp(768px) {
+                padding-top: 55px;
+                padding-bottom: 0;
+            }
+            .c-list__item {
+                padding: 0 20px;
+                @include sp(768px) {
+                    max-width: 500px;
+                }
+            }
+            .ttl {
+                text-align: center;
+                font-size: 2.2rem;
+                font-family: "Pacifico", cursive;
+                padding: 20px;
+                color: $cl01;
+                @include sp(768px) {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

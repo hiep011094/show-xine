@@ -1,0 +1,103 @@
+.c-btn01 {
+    max-width: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    &::after {
+        content: "";
+        background: $clw-op02;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        transform: translateX(-100%);
+        top: 0;
+        position: absolute;
+        transition: 0.5s;
+    }
+    a {
+        display: block;
+        width: 100%;
+        background: transparent;
+        color: $clw;
+        display: inline-block;
+        font-size: 2.4rem;
+        font-family: "Dancing Script", cursive;
+        text-align: center;
+        padding: 7px 20px 4px 20px;
+        position: relative;
+        transition: 0.5s;
+    }
+    @include sp(768px) {
+        max-width: 280px;
+        a {
+            padding: 5px 20px 4px 20px;
+            font-size: 1.8rem;
+        }
+    }
+    svg {
+        margin-left: 1.5vw;
+        position: relative;
+        top: 1px;
+        transition: 0.5s;
+    }
+    &:hover {
+        &::after {
+            transform: translateX(0);
+        }
+        svg {
+            transform: translateX(5px);
+        }
+    }
+}
+
+.c-btncart {
+    display: block;
+    min-width: 160px;
+    border: none;
+    background: $cl02-op08;
+    color: $clw;
+    font-size: 1.6rem;
+    font-family: "Dancing Script", cursive;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    svg {
+        margin-right: 5px;
+    }
+    &::before {
+        content: "";
+        background: $cl02-op04;
+        transition: 0.5s;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+    &::after {
+        content: "";
+        background: $cl02-op04;
+        transition: 0.5s;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+    &:hover {
+        &::before {
+            left: -50%;
+        }
+        &::after {
+            right: -50%;
+        }
+    }
+}

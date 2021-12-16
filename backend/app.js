@@ -1,11 +1,14 @@
 import express from "express";
 import bodyParser from "body-parser";
+import cors from "cors";
 import cookieParser from "cookie-parser";
 import errorMiddleware from "./middleware/error.js";
 
 const app = express(express.json());
 
 app.use(cookieParser());
+
+app.use(cors());
 
 app.use(bodyParser.json({ limit: "30mb" }));
 app.use(bodyParser.urlencoded({ extended: true, limit: "30mb" }));
@@ -14,14 +17,13 @@ app.use(bodyParser.urlencoded({ extended: true, limit: "30mb" }));
 import productRouter from "./routers/productRouter.js";
 import userRouter from "./routers/userRouter.js";
 import orderRouter from "./routers/orderRouter.js";
-import menuRouter from './routers/menuRouter.js';
-import hotlineRouter from './routers/hotlineRouter.js';
-import socialRouter from './routers/socialRouter.js';
-import sliderHeroRouter from './routers/sliderHeroRouter.js';
-import blogRouter from './routers/blogRouter.js';
-import newsRouter from './routers/newsRouter.js';
-import customerRouter from './routers/customerRouter.js';
-
+import menuRouter from "./routers/menuRouter.js";
+import hotlineRouter from "./routers/hotlineRouter.js";
+import socialRouter from "./routers/socialRouter.js";
+import sliderHeroRouter from "./routers/sliderHeroRouter.js";
+import blogRouter from "./routers/blogRouter.js";
+import newsRouter from "./routers/newsRouter.js";
+import customerRouter from "./routers/customerRouter.js";
 
 app.use("/api/v1", productRouter);
 

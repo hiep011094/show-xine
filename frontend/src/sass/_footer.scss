@@ -1,0 +1,157 @@
+.c-footer {
+    position: relative;
+    padding: 50px 0 0 0;
+    width: 100%;
+    background: $cl05;
+    color: $clw;
+    font-size: 15px;
+    line-height: 1.4;
+    @include sp(768px) {
+        padding: 20px 0 0 0;
+        .c-logo {
+            font-size: 3.6rem;
+            position: relative;
+        }
+    }
+    .c-caption {
+        margin-top: 8px;
+        font-size: 1.1rem;
+        margin-bottom: 35px;
+        display: block;
+        position: relative;
+        &::after {
+            content: "";
+            width: 30px;
+            height: 2px;
+            background: $clw;
+            position: absolute;
+            left: 0;
+            bottom: -18px;
+        }
+        @include sp(768px) {
+            font-size: 0.9rem;
+            margin-top: 12px;
+            position: relative;
+            &::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    a {
+        color: $clw;
+    }
+
+    @include sp(768px) {
+        .c-list--3 {
+            display: block;
+            width: 100%;
+            .c-list__item {
+                max-width: 500px;
+                width: 100%;
+                text-align: center;
+                margin: 30px auto;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .c-hotline {
+        margin-top: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        .ttl {
+            font-size: 26px;
+            padding: 10px;
+            &::after {
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid $cl01;
+                bottom: -10px;
+            }
+            &::first-letter {
+                color: $cl04;
+                font-size: 32px;
+            }
+        }
+        .phone {
+            padding: 15px 20px 10px 20px;
+            display: block;
+            &__item {
+                a {
+                    font-size: 22px;
+                    padding: 0 30px;
+                    @include sp(1200px) {
+                        padding: 0 5px;
+                    }
+                    svg {
+                        margin-right: 12px;
+                        transform: scale(0.75);
+                    }
+                }
+                &:last-child {
+                    padding-top: 12px;
+                    position: relative;
+                }
+                > svg {
+                    position: absolute;
+                    top: 2px;
+                    left: 50%;
+                    transform: scale(1) translate(-50%, -5px) rotate(-90deg);
+                    color: $cl04;
+                }
+            }
+        }
+    }
+    h3 {
+        margin-bottom: 35px;
+        font-size: 24px;
+        position: relative;
+        &::after {
+            content: "";
+            width: 30px;
+            height: 2px;
+            background: $clw;
+            position: absolute;
+            left: 0;
+            bottom: -18px;
+        }
+        @include sp(768px) {
+            &::after {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    ul {
+        li {
+            margin: 10px 0;
+        }
+        a {
+            font-size: 14px;
+        }
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    .coppy {
+        margin-top: 50px;
+        background: $cl02;
+        padding: 20px;
+        text-align: center;
+        @include sp(768px) {
+            padding: 15px 20px;
+            margin-top: 25px;
+        }
+        p {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0;
+            color: $clw;
+            @include sp(768px) {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
